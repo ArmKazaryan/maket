@@ -2,7 +2,9 @@
     padding: 0;
     margin: 0;
 }
+
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 .first{ 
    background: url('./image/photo-1531297484001-80022131f5a1.webp') center center/cover no-repeat;
    width: 100%;
@@ -25,7 +27,6 @@
     justify-content: center;
 }
 
-
 .text{
     color: white;   
 }
@@ -42,8 +43,7 @@
 
 }
 
-.name{
-    
+.name{    
     height: 75px;
     color: white;
     font-family: 'Roboto';
@@ -61,23 +61,23 @@
  
 .textdiv{
     display: flex;
-    justify-content: center;
-    
+    justify-content: center;  
+}
 
-    
-}
 .textdiv{
-    color: white;
-       
+    color: white;      
 }
+
 .textdiv>p{
     width: 404px;
 }
+
 .btn{
     display: flex;
     justify-content: center;
     
 }
+
 .btn>button{
     display: flex; 
     margin-top: 20px;  
@@ -90,16 +90,19 @@
     justify-content: center;
     align-items: center;
 }
+
 .soc_logos{   
     width:170px ;
     display: flex;
     justify-content: space-between;
 }
+
 .soc{
     display: flex;
     justify-content: center;
     margin-top: 183px;
 }
+
 .second{
     height: 842px;
     display: flex;
@@ -107,6 +110,7 @@
     align-items: center;
     padding: 248px;
 }
+
 .h>h1{
     width: 367px;
     height: 57px;
@@ -114,6 +118,7 @@
     margin-bottom: 20px;
         
 }
+
 .s_left{
     display: flex;
     flex-direction: column;
@@ -121,23 +126,22 @@
     width: 407px;
 
 }
+
 .s_right>img{
     width: 407px;
     height: 582px;
-
-    
 }
+
 .s_text>p{
     width:407px;
-    height: 80px;
-    
+    height: 80px;   
 }
-
     
 .s_btn{
     display: flex;
     justify-content: flex-start;
 }
+
 .s_btn>button{
     display: flex; 
     margin-top: 20px;  
@@ -150,16 +154,33 @@
     justify-content: center;
     align-items: center;
 }
+
 .third{
     background-color: #F5F6F7;
     height: 504px;
     
 }
+
 .third>.th_images{
     text-align: end;
 }
 
+.th_btn>button{
+    margin-top: 20px;  
+    width: 184px;
+    height: 46px;
+    border: none;
+    background-color: #00AFDB;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    justify-content: center;
+    align-items: center;
+}
 
+.th_btn{
+    display: flex;
+    justify-content: center;
+}
 
 .cube{
     margin-top: 120px;
@@ -169,6 +190,7 @@
     margin-left: 269px;
 
 }
+
 h2{
     text-transform: uppercase;
     font-family: 'roboto';
@@ -177,25 +199,234 @@ h2{
 .face>img{
     background-color:  #F5F6F7;
 }
+
 .th_images{
     margin-top: 120px;
     height: 244px;
 }
+
 .reckt{
     display: flex;
     justify-content: space-between;
     align-items: center;  
 }
+
 .fourth{
     height: 842px;
 }
+.f_img{
+    height: 582px;
+    width: 407px;
+}
+
 .f_l_line{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 120px ;    
 }
+
 .f_r_cube{
     width: 407px;
     height: 184px;
 }
+
+.fifth{
+    background-image: url(./image/pexels-christina-morillo-1181675\ 1.jpg);
+    height: 524px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.registr{
+    display: flex;
+    width: 406px;
+    height: 104px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.registr>p{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+
+}
+
+.registr>.e-mail>input{
+    Width:336px;
+    Height:46px;
+    background: #FFFFFF;
+    border-radius: 0px;
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
+.registr>.e-mail>.five_btn>button{
+    background: #00AFDB;
+    border-radius: 0px;
+    height: 46px;
+    width: 66px;
+    border: none;
     
     
+}
+
+input{
+    cursor:pointer;
+}
+
+.e-mail{
+    display: flex;
+    margin-top: 30px;
+}
+
+input::placeholder{
+    opacity: 0.5;  
+}
+
+.six{
+    height: 464px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.everything{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.last_text{
+    width: 488px;
+    height: 40px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    color: #4E4E4E;
+}
+
+.play_btn>button{  
+    width: 127px;
+    height: 46px;
+    border: none;
+    background-color: #00AFDB;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    justify-content: center;
+    align-items: center;
+}
+
+.store_btn>button{  
+    width: 127px;
+    height: 46px;
+    border: none;
+    background-color: #00AFDB;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30px;
+}
+.block{
+    width: 59px;
+    height: 46px;
+    background: #009CC2;
+    border-radius: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.line{
+    display: flex;
+   
+}
+
+.btn_line{
+    display: flex;
+    
+}
+
+.last{
+    height: 185px ;
+    background-color: black;
+    display: flex;
+    align-items: center;
+
+}
+
+a{
+    color: white;
+}
+
+.first_div{
+    padding-left: 160px ;
+    border: 1px  white solid;
+    border-top: none;
+    border-left: none;
+    border-bottom: none;
+    padding-right: 20px;
+    
+}
+
+.sec_div{
+    padding-left: 20px ;
+    border: 1px  white solid;
+    border-top: none;
+    border-left: none;
+    border-bottom: none;
+    padding-right: 20px; 
+}
+
+.third_div{
+    padding-left: 20px ;
+}
+
+.last>.last_img>img{
+    margin-left: 382px;
+    
+    
+}
+
+.last>.author>p{
+    display: flex;
+    color: grey;
+    margin-left: 400px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+
+
+
+
